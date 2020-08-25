@@ -69,4 +69,14 @@
     .skills__box:nth-child(8) {
       background-color: #f3f3f3;
       order: 8; } }
+
+      .imgage-skill{
+        width: 30%;
+      }
+      .element__head{
+        text-align: center;
+      }
+      .box__element{
+        background-color: white;
+      }
   
