@@ -4,11 +4,13 @@ import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
+import { SkillComponent } from './skill/skill.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'resume', component: ResumeComponent},
   { path:'projects', component: ProjectComponent},
+  { path: 'skills', component: SkillComponent},
   { path: 'contact', component: ContactComponent}
 ];
 

@@ -2,7 +2,8 @@
     <div class="container" >
       <div class="row mb-5">
         <div class="col-12 text-center" id="contact">
-          <h2 class="text-black h1 site-section-heading">Contact Us</h2>
+          <h2 class="text-black h1 site-section-heading">Feel Free To Reach Me</h2>
+          <p>I would love to hear from you</p>
         </div>
       </div>
       <div class="row">
@@ -10,34 +11,35 @@
 
           
 
-          <form action="#" class="p-5 bg-white">
+          <form id="gform" method="POST" class="pure-form pure-form-stacked p-5 bg-white" data-email="mayiiemagalona@gmail.com"
+          action="https://script.google.com/macros/s/AKfycbzWtMvuZjJ7ptDxjk0FlowM43RD6nF4Rlgctzh0GQ/exec">
             
             <h2 class="h4 text-black mb-5">Contact Form</h2> 
 
             <div class="row form-group">
-              <div class="col-md-6 mb-3 mb-md-0">
-                <label class="text-black" for="fname">First Name</label>
-                <input type="text" id="fname" class="form-control">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="text-black" for="name">Full Name</label>
+                <input type="text" id="fname" class="form-control" name="name">
               </div>
-              <div class="col-md-6">
-                <label class="text-black" for="lname">Last Name</label>
-                <input type="text" id="lname" class="form-control">
+              <!-- <div class="col-md-6">
+                <label class="text-black" for="lname" name="lname">Last Name</label>
+                <input type="text" id="lname" class="form-control" name="name">
+              </div> -->
+            </div>
+
+            <div class="row form-group">
+              
+              <div class="col-md-12">
+                <label class="text-black" for="email" name="email">Email</label> 
+                <input type="email" id="email" class="form-control" name="email">
               </div>
             </div>
 
             <div class="row form-group">
               
               <div class="col-md-12">
-                <label class="text-black" for="email">Email</label> 
-                <input type="email" id="email" class="form-control">
-              </div>
-            </div>
-
-            <div class="row form-group">
-              
-              <div class="col-md-12">
-                <label class="text-black" for="subject">Subject</label> 
-                <input type="subject" id="subject" class="form-control">
+                <label class="text-black" for="subject" name="subject">Subject</label> 
+                <input type="subject" id="subject" class="form-control" name="subject">
               </div>
             </div>
 
@@ -67,7 +69,7 @@
             <p class="mb-4"><a href="#">+63 956 710 5936</a></p>
 
             <p class="mb-0 font-weight-bold">Email Address</p>
-            <p class="mb-0"><a href="#">mayiiemagalona@gmail.com</a></p>
+            <p class="mb-0"><a href="mailto:mayiiemagalona@gmail.com">mayiiemagalona@gmail.com</a></p>
 
           </div>
           
